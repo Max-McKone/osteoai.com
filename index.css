@@ -3,5 +3,15 @@
 	position: relative;
 }
 
+.bottompic{
+	position: absolute;
+	bottom: 0;
+	width: 50%;
+    height: auto;
+}
+p {
+  font-family: "Avenir", Times, serif;
+}
+
 #parg{
 }
