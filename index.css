@@ -7,10 +7,36 @@ body {
   background-color: transparent;
 }
 
-.centerthis > #img1 {
-  z-index: 1;
+
+.centerthis {
+  max-width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  width: 50%;
+  height: auto;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+
+#img1 {
+  max-width: 100%;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+.parentitem{
+  max-width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  width: 50%;
+  height: auto;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 #BETA {
   text-align: center;
   font-family: "Avenir";
@@ -42,18 +68,18 @@ body {
   width: 100%;
 }
 .parentbox {
-  max-width: 50%;
+  max-width: 100%;
   overflow: hidden;
   background-color: transparent;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: auto;
   border: none;
   margin-left: auto;
   margin-right: auto;
 }
 
 #img2 {
-  max-width: 100%;
+  max-width: auto;
   overflow: hidden;
   width: 100%;
   height: auto;
