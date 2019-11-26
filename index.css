@@ -7,9 +7,13 @@ body {
   background-color: transparent;
 }
 
-
 .centerthis {
-  max-width: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+.Box1{
+  max-width: 50%;
   overflow: hidden;
   background-color: transparent;
   width: 50%;
@@ -19,15 +23,15 @@ body {
   margin-right: auto;
 }
 
-
 #img1 {
-  max-width: 100%;
+  
+  max-width: 50%;
   overflow: hidden;
   width: auto;
   height: auto;
 }
 .parentitem{
-  max-width: 100%;
+  max-width: 50%;
   overflow: hidden;
   background-color: transparent;
   width: 50%;
@@ -37,9 +41,24 @@ body {
   margin-right: auto;
 
 }
-#BETA {
+
+.txtbox{
+  overflow: hidden;
+  display: block;
+}
+
+
+.BETA {
   text-align: center;
-  font-family: "Avenir";
+  max-width: 50%;
+  overflow: hidden;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+    font-family: "Avenir";
   /*free alternative to Avenir
 	
 	font-family: 'Nunito', sans-serif;
@@ -62,16 +81,13 @@ body {
 
 .bottompic {
   overflow: hidden;
-  position: absolute;
-  bottom: 0px;
   display: block;
-  width: 100%;
 }
 .parentbox {
-  max-width: 100%;
+  max-width: 50%;
   overflow: hidden;
   background-color: transparent;
-  width: 100%;
+  width: 50%;
   height: auto;
   border: none;
   margin-left: auto;
@@ -79,8 +95,10 @@ body {
 }
 
 #img2 {
-  max-width: auto;
+  position: absolute;
+  bottom: 0px;
+  max-width: 50%;
   overflow: hidden;
-  width: 100%;
+  width: 50%;
   height: auto;
 }
