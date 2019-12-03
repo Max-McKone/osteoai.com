@@ -5,7 +5,7 @@ html {
 
 body {
   background-color: transparent;
-  
+
 }
 
 .centerthis {
@@ -13,7 +13,7 @@ body {
   display: block;
 }
 
-.Box1{
+.Box1 {
   max-width: 50%;
   overflow: hidden;
   background-color: transparent;
@@ -24,13 +24,14 @@ body {
   margin-right: auto;
 }
 
-#img1 {
-  max-width: 50%;
+#img1 {   
+  max-width: 100%;
   overflow: hidden;
   width: auto;
   height: auto;
 }
-.parentitem{
+
+.parentitem {
   max-width: 50%;
   overflow: hidden;
   background-color: transparent;
@@ -42,42 +43,11 @@ body {
 
 }
 
-.txtbox{
+.txtbox {
   overflow: hidden;
   display: block;
 }
 
-
-.Jumbotron {  
-  opacity: 0.2 !important;
-  text-align: center;
-  max-width: 50%;
-  overflow: hidden;
-  background-color: transparent;
-  width: 100%;
-  height: auto;
-  border: none;
-  margin-left: auto;
-  margin-right: auto;
-    font-family: "Avenir";
-  /*free alternative to Avenir
-	
-	*/
-  font-weight: bolder;
-}
-
-.Jumbotron:hover {
-  opacity: 2 !important;
-  
-  
-  
-}
-
-.fas {
-  
-  font-family: "Avenir";
-
-}
 
 /*save for later/
 #tell {
@@ -96,6 +66,7 @@ body {
   overflow: hidden;
   display: block;
 }
+
 .parentbox {
   max-width: 50%;
   overflow: hidden;
