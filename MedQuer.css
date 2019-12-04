@@ -115,6 +115,97 @@
   }
 }
 
+
+/* ----------- Galaxy S9/S9+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 360px) and (max-device-width: 550px) and (-webkit-min-device-pixel-ratio: 2) {
+
+
+  .Box1 {
+    max-width: auto;
+    max-height: 40%;
+  }
+
+  .parentitem > #img1 {
+    width: 150px;
+
+  }
+
+  #img1 {
+    position: relative;
+    left: 25%;
+
+  }
+
+  #img2 {
+    left: 0%;
+    width: 500px;
+    max-width: auto;
+    max-height: 90%;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 360px) and (max-device-width: 550px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+  
+
+  .Box1 {
+    max-width: auto;
+    max-height: 40%;
+  }
+
+  .parentitem > #img1 {
+    width: 150px;
+
+  }
+
+  #img1 {
+    position: relative;
+    left: 25%;
+
+  }
+
+  #img2 {
+    left: 0%;
+    width: 500px;
+    max-width: auto;
+    max-height: 90%;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 360px) and (max-device-width: 550px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+ 
+  
+
+  .Box1 {
+    max-width: auto;
+    max-height: 40%;
+    
+  }
+
+  .parentitem > #img1 {
+    width: 150px;
+
+  }
+
+  #img1 {
+    position: relative;
+    left: 30%;
+
+  }
+
+  #img2 {
+    left: 0%;
+    width: 500px;
+    max-width: auto;
+    max-height: 40%;
+  }
+}
+
+
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait and Landscape */
@@ -190,7 +281,9 @@
 
 
   #img2 {
-    max-width: 100%;
+    left: 0%;
+    width: 500px;
+    max-width: auto;
     max-height: 90%;
   }
 }
@@ -209,7 +302,9 @@
 
 
   #img2 {
-    max-width: 100%;
+    left: 0%;
+    width: 500px;
+    max-width: auto;
     max-height: 90%;
   }
 }
@@ -228,7 +323,9 @@
 
 
   #img2 {
-    max-width: 40%;
+    left: 30%;
+    width: 500px;
+    max-width: auto;
     max-height: 40%;
   }
 }
@@ -281,7 +378,7 @@
   }
 
   #img1 {
-    
+
     max-width: 100%;
     max-height: 100%;
   }
@@ -310,7 +407,9 @@
 
 
   #img2 {
-    max-width: 100%;
+    left: 0%;
+    width: 500px;
+    max-width: auto;
     max-height: 90%;
   }
 }
@@ -330,7 +429,9 @@
 
 
   #img2 {
-    max-width: 100%;
+    left: 0%;
+    width: 500px;
+    max-width: auto;
     max-height: 90%;
   }
 }
@@ -349,7 +450,9 @@
 
 
   #img2 {
-    max-width: 40%;
+    left: 30%;
+    width: 500px;
+    max-width: auto;
     max-height: 40%;
   }
 }
@@ -368,7 +471,9 @@
 
 
   #img2 {
-    max-width: 30%;
+    left: 26%;
+    width: 500px;
+    max-width: auto;
     max-height: 50%;
   }
 }
@@ -385,16 +490,11 @@
     max-height: 100%;
   }
 
-  #Jumbodrone {
-    bottom: 80% !important;
-    width: 1px !important;
-    height: 100%;
-    text-align: center;
-  }
-
 
   #img2 {
-    max-width: 30%;
+    left: 26%;
+    width: 500px;
+    max-width: auto;
     max-height: 50%;
   }
 }
@@ -414,13 +514,15 @@
 
 
   #img2 {
-    max-width: 30%;
+    left: 28%;
+    width: 500px;
+    max-width: auto;
     max-height: 50%;
   }
 }
 
 
-/* ----------- Non-Retina Screens ----------- */
+/* ----------- Retina Screens ----------- */
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .parentitem {
@@ -456,3 +558,70 @@
     max-height: 50%;
   }
 }
+
+
+/* ----------- IPAD ----------- */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .parentitem {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  #img1 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+
+  #img2 {
+    left: 15%;
+    width: 80%;
+    max-width: 150%;
+    max-height: 90%;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .parentitem {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  #img1 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+
+  #img2 {
+    left: 15%;
+    width: 80%;
+    max-width: 150%;
+    max-height: 90%;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .parentitem {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  #img1 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+
+  #img2 {
+    left: 15%;
+    width: 80%;
+    max-width: 150%;
+    max-height: 90%;
+  }
+}
+

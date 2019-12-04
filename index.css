@@ -1,5 +1,4 @@
 html {
-  height: 100%;
   scroll-behavior: smooth;
 }
 
@@ -8,16 +7,11 @@ body {
 
 }
 
-.centerthis {
-  overflow: hidden;
-  display: block;
-}
 
 .Box1 {
-  max-width: 50%;
   overflow: hidden;
-  background-color: transparent;
-  width: 50%;
+  display: block;
+  width: auto;
   height: auto;
   border: none;
   margin-left: auto;
@@ -25,17 +19,17 @@ body {
 }
 
 #img1 {   
-  max-width: 100%;
+  max-width: auto;
   overflow: hidden;
   width: auto;
   height: auto;
 }
 
 .parentitem {
-  max-width: 50%;
+  max-width: auto;
   overflow: hidden;
   background-color: transparent;
-  width: 50%;
+  width: auto;
   height: auto;
   border: none;
   margin-left: auto;
@@ -71,7 +65,7 @@ body {
   max-width: 50%;
   overflow: hidden;
   background-color: transparent;
-  width: 50%;
+  width: auto;
   height: auto;
   border: none;
   margin-left: auto;
@@ -81,8 +75,8 @@ body {
 #img2 {
   position: absolute;
   bottom: 0px;
-  max-width: 50%;
+  max-width: auto;
   overflow: hidden;
-  width: 50%;
+  width: auto;
   height: auto;
 }
