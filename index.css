@@ -34,10 +34,6 @@ body {
 
 }
 
-.txtbox {
-  overflow: hidden;
-  display: block;
-}
 
 
 /*save for later/
@@ -70,8 +66,7 @@ body {
 }
 
 #img2 {
-  position: absolute;
-  bottom: 0px;
+ 
   max-width: auto;
   overflow: hidden;
   width: auto;
