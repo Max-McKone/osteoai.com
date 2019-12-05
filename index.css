@@ -9,13 +9,10 @@ body {
 
 
 .Box1 {
+  
   overflow: hidden;
   display: block;
-  width: auto;
-  height: auto;
-  border: none;
-  margin-left: auto;
-  margin-right: auto;
+ 
 }
 
 #img1 {   
@@ -26,7 +23,7 @@ body {
 }
 
 .parentitem {
-  max-width: auto;
+  max-width: 100%;
   overflow: hidden;
   background-color: transparent;
   width: auto;
