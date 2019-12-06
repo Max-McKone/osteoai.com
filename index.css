@@ -4,18 +4,14 @@ html {
 
 body {
   background-color: transparent;
-
 }
-
 
 .Box1 {
-  
   overflow: hidden;
   display: block;
- 
 }
 
-#img1 {   
+#img1 {
   max-width: auto;
   overflow: hidden;
   width: auto;
@@ -31,10 +27,33 @@ body {
   border: none;
   margin-left: auto;
   margin-right: auto;
-
 }
 
+/*Centerd img*/
+.explain {
+  max-width: auto;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
 
+.logobox {
+  max-width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img2 {
+  max-width: auto;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
 
 /*save for later/
 #tell {
@@ -65,8 +84,7 @@ body {
   margin-right: auto;
 }
 
-#img2 {
- 
+#img3 {
   max-width: auto;
   overflow: hidden;
   width: auto;
