@@ -536,6 +536,69 @@
   }
 }
 
+/******NEXUS 6P******/
+/******Landscape and Portrait******/
+
+@media only screen and (width:412px) and (height:732px){
+  .parentitem {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  #img1 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  #img2 {
+    position: absolute;
+    bottom: 0px;
+    max-width: 100%;
+    max-height: 90%;
+  }
+}
+
+@media only screen and (width:412px) and (height:732px)  and (orientation: portrait) {
+  .parentitem {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  #img1 {
+    position: relative;
+    left: 100px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  #img2 {
+    position: absolute;
+    bottom: 0px;
+    max-width: 100%;
+    max-height: 90%;
+  }
+}
+
+@media only screen and (width:412px) and (height:732px) and (orientation: Landscape) {
+  .parentitem {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  #img1 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  #img2 {
+    position: absolute;
+    bottom: 0px;
+    max-width: 100%;
+    max-height: 90%;
+  }
+}
+
+
 /* ----------- iPhone XR ----------- */
 @media only screen and (min-width: 414px) and (max-width: 767px) {
   .parentitem {
@@ -683,8 +746,8 @@
   }
 
   #img2 {
-    left: 230px;
-    width: 50%;
+    left: 150px;
+    width: 70%;
     max-width: auto;
     height: 50%;
     max-height: 80%;
