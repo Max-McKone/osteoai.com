@@ -1,2 +1,2 @@
 # osteoai.com
-Website for the OsteoAI app.
+Website for the OsteoAI app
